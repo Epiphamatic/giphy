@@ -1,0 +1,81 @@
+body {
+
+    background-image: url("../images/background.gif");
+}
+
+.font {
+
+    font-family: 'Cabin', sans-serif;
+}
+
+#mainForm {
+
+    background: rgba(255, 255, 255, 0.808);
+    z-index: 1;
+    margin-top: 5vh;
+    padding: 2vw;
+    border: solid 2px rgba(255, 255, 255, 0.884);
+    border-radius: 5px;
+
+}
+
+#header {
+
+    text-align: center;
+    height: 10vh;
+    line-height: 10vh;
+    font-size: 13vh;
+    font-weight: bold;
+    margin-top: 3vh;
+    margin-bottom: 2vh;
+}
+
+#gifsView {
+
+    background: rgba(255, 255, 255, 0.808);
+    z-index: 1;
+    margin-top: 5vh;
+    margin-bottom: 3vh;  
+    padding: 2vw;
+    border: solid 2px rgba(255, 255, 255, 0.884);
+    border-radius: 5px;
+    min-height: 30vh;
+}
+
+#formHeader {
+
+    font-size: 25px;
+}
+
+#submitButton {
+
+    width: 10.5vw;
+}
+
+#clearButton {
+
+    width: 10.5vw;
+}
+
+#gifButtons {
+
+    padding-left: 2vw;
+}
+
+.gif {
+
+    margin-right: 1vw;
+    margin-bottom: 1vw;
+}
+
+.gifDiv {
+
+    margin-right: 1vw;
+    margin-bottom: 1vw;
+}
+
+.gifRating {
+
+    font-size: 2vh;
+    font-style: italic;
+}
