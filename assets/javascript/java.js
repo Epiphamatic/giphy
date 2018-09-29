@@ -66,6 +66,8 @@ $("#clearButton").on("click", function(){
 
     event.preventDefault();
 
+    // Reset the array and the gifsView div
+
     buttons = ["Dog", "Cat", "Quokka", "Axototl", "Zebra"];
 
     displayButtons();
